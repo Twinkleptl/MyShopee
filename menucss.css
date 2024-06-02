@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+  background: url("d.jpg");
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+
+.mainmenu {
+	background-color: #562929;
+	width: 250px;
+
+}
+.mainmenu a{
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .3em;
+	font-family: cursive;
+	font-size: 20px;
+	display: block;
+	border-bottom: 2px solid black;
+	color: white;
+	padding: 10px 0px 10px 12px;
+
+}
+.mainmenu a:hover {
+	background-color: rgba(1, 1, 0, 0.4);
+	
+}
+
+.mainmenu ul li ul { 
+	display: none; 
+
+}
+.mainmenu li:hover ul{
+	display: block;
+	background-color:limegreen;
+}

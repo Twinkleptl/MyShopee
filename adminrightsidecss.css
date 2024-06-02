@@ -1,0 +1,26 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url(d.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.rightside{
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 38px;
+	float: right;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 850px;
+}
